@@ -77,7 +77,7 @@ graph TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/decentralised-option-vaults.git
+git clone https://github.com/AnInsaneJimJam/Decentralized-Options-Vault.git
 cd decentralised-option-vaults
 
 # Install dependencies
@@ -250,8 +250,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Community
 
-- 📧 **Issues**: [GitHub Issues](https://github.com/yourusername/decentralised-option-vaults/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/decentralised-option-vaults/discussions)
+- 📧 **Issues**: [GitHub Issues](https://github.com/AnInsaneJimJam/Decentralized-Options-Vault/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/AnInsaneJimJam/Decentralized-Options-Vault/discussions)
 - 📖 **Documentation**: [Full Documentation](./DOV_README.md)
 - 🐛 **Bug Reports**: Use GitHub Issues with detailed reproduction steps
 
@@ -261,7 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ for the DeFi community**
 
-[⭐ Star this repo](https://github.com/yourusername/decentralised-option-vaults) • [🍴 Fork it](https://github.com/yourusername/decentralised-option-vaults/fork) • [📢 Share it](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20DeFi%20options%20vault!)
+[⭐ Star this repo](https://github.com/AnInsaneJimJam/Decentralized-Options-Vault) • [🍴 Fork it](https://github.com/AnInsaneJimJam/Decentralized-Options-Vault/fork) • [📢 Share it](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20DeFi%20options%20vault!)
 
 </div>
 
