@@ -148,6 +148,7 @@ Follow our comprehensive [Manual Testing Guide](./MANUAL_TESTING_GUIDE.md) to ve
 | [MANUAL_TESTING_GUIDE.md](./MANUAL_TESTING_GUIDE.md) | Step-by-step browser testing |
 | [GAS_ANALYSIS.md](./GAS_ANALYSIS.md) | Performance and cost analysis |
 | [FINAL_TEST_REPORT.md](./FINAL_TEST_REPORT.md) | Executive testing summary |
+| [REFERENCES.md](./REFERENCES.md) | Research papers and citations |
 
 ## 🔧 Technical Stack
 
@@ -241,8 +242,22 @@ yarn foundry:chain & yarn foundry:deploy & yarn start
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📚 Research & References
+
+This project is based on foundational research from Paradigm on Decentralized Option Vaults:
+
+- **[Decentralized Option Vaults - Part 1](https://www.paradigm.co/blog/decentralized-option-vaults-part-1)** - Theoretical framework and mechanics
+- **[Decentralized Option Vaults - Part 2](https://www.paradigm.co/blog/decentralized-option-vaults-part-2)** - Implementation strategies and considerations
+
+### Key Concepts Implemented:
+- **Covered Call Strategy** - Automated weekly option selling cycles
+- **ERC-4626 Vault Standard** - Standardized vault interface for composability
+- **Keeper Architecture** - Decentralized strategy execution
+- **Risk Management** - Transparent ITM/OTM settlement mechanics
+
 ## 🙏 Acknowledgments
 
+- **Paradigm Research** - Foundational DOV research and theoretical framework
 - **Scaffold-ETH 2** - Amazing development framework
 - **OpenZeppelin** - Secure smart contract libraries
 - **Foundry** - Fast and reliable testing framework

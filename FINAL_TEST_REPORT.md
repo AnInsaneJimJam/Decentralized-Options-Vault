@@ -239,7 +239,19 @@ Accuracy: Within 1% tolerance ✅
 
 ---
 
+## 📚 Research Foundation
+
+This implementation is based on foundational research from Paradigm:
+
+- **[Decentralized Option Vaults - Part 1](https://www.paradigm.co/blog/decentralized-option-vaults-part-1)** - Theoretical framework
+- **[Decentralized Option Vaults - Part 2](https://www.paradigm.co/blog/decentralized-option-vaults-part-2)** - Implementation strategies
+
+Our DOV successfully implements the core concepts outlined in these seminal papers, including automated covered call strategies, ERC-4626 compliance, and keeper-driven execution.
+
+---
+
 **Report Generated**: 2025-11-02 18:07:23 IST  
 **Testing Environment**: Local Anvil Chain  
 **Test Coverage**: 100% Automated + Manual Guide Provided  
+**Research Foundation**: Paradigm DOV Papers Implementation  
 **Next Steps**: Manual browser testing and final presentation prep

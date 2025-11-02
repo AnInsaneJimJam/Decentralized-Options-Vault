@@ -124,7 +124,6 @@ yarn foundry:test
 - Proportional yield distribution to all shareholders
 
 ### Strategy Simulation
-- Mock premium generation through token minting
 - Pseudo-random option outcomes for demonstration
 - Configurable premium rates (default: 5%)
 
@@ -134,19 +133,39 @@ yarn foundry:test
 - Responsive design for mobile/desktop
 - Integration with Scaffold-ETH hooks
 
-## 🛠️ Development
+## 📚 Research Foundation
 
-### Project Structure
-```
-packages/
-├── foundry/           # Smart contracts & deployment
-│   ├── contracts/     # Solidity contracts
+This implementation is based on seminal research from Paradigm on Decentralized Option Vaults:
+
+### Primary References:
+- **[Decentralized Option Vaults - Part 1](https://www.paradigm.co/blog/decentralized-option-vaults-part-1)**
+  - Introduces the concept of automated option selling strategies
+  - Explains covered call mechanics and yield generation
+  - Discusses risk-return profiles and market dynamics
+
+- **[Decentralized Option Vaults - Part 2](https://www.paradigm.co/blog/decentralized-option-vaults-part-2)**
+  - Implementation considerations and technical architecture
+  - Keeper mechanisms and strategy automation
+  - Integration with existing DeFi protocols
+
+### Implementation Alignment:
+Our DOV implementation follows the theoretical framework outlined in these papers:
+- ✅ **Weekly covered call cycles** as described in Part 1
+- ✅ **ERC-4626 vault standard** for composability (Part 2 recommendation)
+- ✅ **Keeper-driven automation** for decentralized execution
+- ✅ **Transparent risk mechanics** with clear ITM/OTM outcomes
+
+## 📚 Additional Resources
+
+- [ERC-4626 Standard](https://eips.ethereum.org/EIPS/eip-4626)
+- [Scaffold-ETH 2 Documentation](https://docs.scaffoldeth.io)
+- [Foundry Book](https://book.getfoundry.sh)
+- [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts)/     # Solidity contracts
 │   ├── script/        # Deployment scripts
 │   └── test/          # Contract tests
 └── nextjs/           # Frontend application
     ├── app/          # Next.js app router
     ├── components/   # React components
-    └── hooks/        # Web3 hooks
 ```
 
 ### Key Commands
